@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <title>CALT.Nigeria</title>
+</head>
+<body>
+  <div class="container">
+  <header class="title">
+    <h2 class="title__header">calt</h2>
+    <button class="title__button">clear-all</button>
+  </header>
+  <section class="base">
+    <div class="base__form">
+   <h4 class="base__form--heading">Add Meal/Food-Item</h4>
+   <form class="base__form--content">
+     <div class="form-1">
+     <label for="meal">Meal:</label><br>
+     <input type="text" name="meal" id="meal" placeholder="meal">
+    </div>
+    <div class="form-2">
+     <label for="calories">Calories:</label><br>
+     <input type="number" name="calories" id="calories" placeholder="calories">
+    </div>
+    </form>
+     <div class="botton__collection clearfix">
+       <button class="_button" id="button--add"><ion-icon name="add-circle-outline" id="add-circle"></ion-icon>add meal</button>
+       <button class="_button" id="button--update"><ion-icon name="enter-outline" id="enter-outline"></ion-icon>update meal</button>
+       <button class="_button" id="button--delete"><ion-icon name="trash-outline" id="trash-outline"></ion-icon>delete meal</button>
+       <button class="_button" id="button--back"><ion-icon name="chevron-back-circle-outline" id="backle"></ion-icon>back</button>
+      
+     </div>
+  
+ </div>
+  </section>
+  <section class="calories-section">
+    <h3 class="calories__header">total calories: <span class="TCal">0</span></h3>
+  </section>
+  <section class="list">
+    <ul class="list__items">
+      <!-- <li class="list__items--content" id="list-1">
+        <div class="flex-i">
+          <span class="date">10/10/2020</span><p class="content">jollof rice: <span class="CA">2000</span> <span class="CL">calories</span></p>
+        </div>
+        <a href="#"><ion-icon name="pencil-outline" class="edit" id="pencil"></ion-icon></a>
+           
+      </li>
+      <li class="list__items--content" id="list-1">
+        <span class="date">10/10/2020</span><p class="content">rice: <span class="CA">2000</span> <span class="CL">calories</span></p>
+        <ion-icon name="pencil-outline" class="edit" id="pencil"></ion-icon>   
+      </li>
+      <li class="list__items--content" id="list-1">
+        <span class="date">10/10/2020</span><p class="content">lof rice: <span class="CA">2000</span> <span class="CL">calories</span></p>
+        <ion-icon name="pencil-outline" class="edit" id="pencil"></ion-icon>   
+      </li>
+       -->
+      
+     
+      
+
+    </ul>
+
+
+  </section>
+</div>
+  
+  
+  
+  
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
